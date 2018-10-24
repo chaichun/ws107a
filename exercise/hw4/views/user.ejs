@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            table, th, tr {
+                border: 1px solid black;
+            }
+            th {background-color:cyan; color: blue};
+        </style>
+    </head>
+    <body>
+        <table style="width:80%">
+            <tr>
+                <th>欄位</th>
+                <th>內容</th>
+            </tr>
+                <tr>
+                <th>名字</th><th><%= user.name.first %></th>
+            <tr>    
+                <th>年齡</th><th><%= user.age %></th>
+            </tr>
+            <tr>   
+                <th>物種</th><th><%= user.species %></th>
+            </tr>
+            </tr>
+        </table>
+    </body>   
+</html>
