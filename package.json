@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/cccnqu/ws107a#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "ejs": "^2.6.1",
     "koa": "^2.6.1",
     "koa-body": "^4.0.4",
@@ -32,6 +33,7 @@
     "koa-static": "^5.0.0",
     "koa-views": "^6.1.4",
     "lodash": "^4.17.11",
+    "puppeteer": "^1.10.0",
     "should": "^3.3.2",
     "supertest": "^3.3.0"
   }
